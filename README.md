@@ -3,6 +3,8 @@
 A minimal anime-themed GTK work timer with session logging, character panel, and editable history.
 Made this for personal session tracking, feel free to use, additional productivity features will be added overtime. 
 
+![Alt text](img.png)
+
 ## Requirements
 - C++17 compiler (tested with g++)
 - GTKmm 3.x development packages
