@@ -1,0 +1,19 @@
+# Build artifacts
+NoDistractions
+nodistactions
+TimerApp
+*.o
+*.out
+*.log
+*.tmp
+*.swp
+*.dSYM/
+build/
+dist/
+
+# Local session logs
+work_log.txt
+
+# Editor/IDE
+.vscode/
+.idea/

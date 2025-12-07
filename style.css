@@ -1,0 +1,102 @@
+/* Anime Theme CSS */
+
+window {
+    background-color: #fce4ec; /* Light Pink Background */
+}
+
+/* For GTK 3.20+ compatibility */
+window decoration {
+    background-color: #fce4ec;
+}
+
+#timer-label {
+    font-size: 72px;
+    font-weight: bold;
+    color: #880e4f; /* Dark Pink */
+    font-family: "Sans";
+    margin-bottom: 10px;
+}
+
+#timer-label.running {
+    color: #d81b60;
+}
+
+#status-label {
+    font-size: 14px;
+    color: #6a1b9a;
+    font-weight: 600;
+}
+
+#status-label.running {
+    color: #d81b60;
+}
+
+#status-label.paused {
+    color: #4527a0;
+}
+
+#status-label.saved {
+    color: #2e7d32;
+}
+
+entry {
+    background-color: #ffffff;
+    color: #4a148c;
+    border-radius: 15px;
+    border: 2px solid #f8bbd0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+entry:focus {
+    border-color: #ec407a;
+}
+
+button {
+    background-color: #f8bbd0; /* Pink button */
+    color: #880e4f;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #f48fb1;
+}
+
+button:active {
+    background-color: #ec407a;
+    color: white;
+}
+
+button:disabled {
+    background-color: #e0e0e0;
+    color: #9e9e9e;
+}
+
+.character-frame {
+    background-color: #f8bbd0;
+    border-right: 2px solid #f48fb1;
+    padding: 6px;
+}
+
+.sessions-frame {
+    background-color: #ffffff;
+    border: 2px solid #f8bbd0;
+    border-radius: 12px;
+}
+
+#sessions-list row {
+    padding: 6px;
+}
+
+#sessions-list row:selected {
+    background-color: #f8bbd0;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: #6d6d6d;
+}
